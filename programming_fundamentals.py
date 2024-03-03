@@ -14,7 +14,7 @@ comment
 
 # OUTPUTS
 print("Hello world")
-print('Hello phyton')
+print('Hello python')
 
 '''
 Line breaks in Strings or outputs:
@@ -62,7 +62,7 @@ first_name, last_name, age = "Mariana", 'Martinez', 22
 
 
 # CONSTANTS
-PI_NUMBER = 3.1416  # In phyton the constants can be modified. 
+PI_NUMBER = 3.1416  # In python the constants can be modified. 
 
 
 '''
@@ -125,7 +125,7 @@ word_slice = word [0 : 6 : 2]
 print("Mexico [0 : 6 : 2] => " + word_slice + "\n")
 
 
-# PHYTON PREDEFINED FUNCTIONS
+# PYThON PREDEFINED FUNCTIONS
 print("The data type of word is:", type(word)) # Determine the data type.
 print("The word length is:", len(word)) # Determine the length of a String.
 print("The word is: ", word.capitalize()) # First letter capitalized.
@@ -138,12 +138,12 @@ print("\n")
 
 
 # LIST MANAGEMENT
-language = ["Phyton", "Swift", "CSS", "JavaScript"]
+language = ["Python", "Swift", "CSS", "JavaScript"]
 
 print("Append 'PHP': ", language.append("PHP"))  # Add an item to the last position.
 print("Insert 'HTML' in the second position: ", language.insert(2, "HTML"))  # Add an item at a defined position.
 print("The position for 'CSS' is: ", language.index("CSS")) # Identify the index + 1 of an item.
-print("Remove 'Phyton':", language.remove("Phyton"))  # Remove a value.
+print("Remove 'Python':", language.remove("Python"))  # Remove a value.
 
 del language[1]  # Remove a value of a defined position.
 print("Remove the value of the first position: ", language)
