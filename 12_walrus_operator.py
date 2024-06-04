@@ -15,7 +15,7 @@ brands = ["Porche", "Koenigsegg", "Aston Martin"]
 print("STATEMENT:")
 print(brands.append("Bentley"), end="\n\n")  # => Statement
 
-# WALRUS OPERATOR: # It allow assign a value to a variable within a condition and 
+# WALRUS OPERATOR: It allow assign a value to a variable within a condition and 
 # then use it. In some cases, depending on the context, the Walrus operator reduce 
 # the code duplicity, thus improving the readability and performance of the software. 
 # This operator is an expression and should always be used between parenthesis. 
