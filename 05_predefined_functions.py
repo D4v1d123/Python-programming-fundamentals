@@ -1,4 +1,6 @@
 # PYTHON PREDEFINED FUNCTIONS
+word = "Mexico"
+
 print("The data type of word is:", type(word)) # Determine the data type.
 print("The word length is:", len(word)) # Determine the length of a String.
 print("The word is: ", word.capitalize()) # First letter capitalized.

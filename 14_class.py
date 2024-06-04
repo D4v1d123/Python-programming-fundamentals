@@ -6,8 +6,7 @@ class Person:  # Class with attributes.
     def __init__(self, name, last_name, nationality = "Colombia"):  # Constructor method.
         self.nationality = nationality  # Public property.
         self.__full_name = "{} {}" . format(name, last_name)  # Private property.
-    #           /\                              /\
-    #           |                               |
+    #            ↑                              ↑
     #    class attributes               function parameters
     
     def get_full_name (self):  # Get method.

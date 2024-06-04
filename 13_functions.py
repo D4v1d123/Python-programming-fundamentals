@@ -1,11 +1,9 @@
 # FUNCTIONS
 # Input arguments or parameters
-#               |
-#              \/
+#               ↓
 def sum(number_1, number_2):  # Function with return value.
     return (number_1 + number_2)
-#                    /\
-#                    |
+#                    ↑
 #      Output arguments or parameters
 print("The sum result is: ", sum(1, 2))  # Assign the parameters value in order.
 print("The sum result is: ", sum(number_2 = 1, number_1 = 2))  # Assign the value to a specified parameter.

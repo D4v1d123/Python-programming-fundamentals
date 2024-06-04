@@ -15,8 +15,8 @@ finally:  # Is always executed when there is or is not an error (Optional).
 print("TRY TWO: ")
 try: 
     print("The result of the sum is: {}." . format(number1 + number2))
-except ValueError:  # If a specific error happend, execide a code block inside except.
+except ValueError:  # If a specific error happen, execute a code block inside except.
     print("An 'Value Error' error has occurred.")
-except TypeError:  # If a specific error happend, execide a code block inside except.
+except TypeError:  # If a specific error happen, execute a code block inside except.
     print("An 'Type Error' error has occurred.")
 print("\n")
