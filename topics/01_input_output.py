@@ -29,7 +29,7 @@ Formatting string in outputs:
 %s => String.
 %d => Integer.
 %f => Floating
-%.number of digitsf => Floating point number with fixed precision.
+%.number of digits f => Floating point number with fixed precision.
 '''
 planet_name, planet_number, gravity, size = 'Earth', 3, 9.807, 510.14242544232
 

@@ -15,7 +15,7 @@ Comparative operators:
 > => Greater than
 <= => Smaller or equal than
 >= => Greater than
-== => Iqual than
+== => Equal than
 != => Different from
 '''
 
@@ -27,7 +27,7 @@ not
 '''
 
 '''
-Assignment perators:
+Assignment operators:
 = => Same to x = 1
 += => Same to x = x + 1 
 -= => Same to x = x - 1 
